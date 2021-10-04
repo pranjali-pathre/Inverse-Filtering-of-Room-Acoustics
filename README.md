@@ -26,9 +26,9 @@ The code for this present in 2 files named Working.m and Working_LSE_MINT.m, pre
 The code Working.m shows the working of the MINT principle on randomly generated room acoustics, and plots the original signal, output signal after distorting and inversing, and 
 the error between output and original signals, for inversing by the MINT method. The code Working_LSE_MINT.m shows the plots for differentiating between conventional LSE method and the proposed MINT principle. It plots the original signal, output signal after distorting and inversing, and the error between output and original signals for inversing using MINT principle and LSE method. Both the codes are run for different input signals (original signals) like unit step, ramp, sine wave, and random numbers input, and give 4 different figures with the above mentioned plots as subplots.
 
-# Testing audio files
+## Testing audio files
 
-## The file sp.wav present in the main repository directory and the file Test_Audio.m present in Code folder must be placed in the same folder.
+### The file sp.wav present in the main repository directory and the file Test_Audio.m present in Code folder must be placed in the same folder.
 The code for this experiment is in the file named Test_Audio.m, present in the Code folder.
 
 This code uses the sound file sp.wav present in the main repository directory and an inbuilt MATLAB sound file (train.mat) to test the working of the inversing methods. The code 
